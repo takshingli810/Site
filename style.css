@@ -12,9 +12,13 @@ ul {
 
 .navbar a {
   display: inline;
-  padding: 20px;
+  padding: 5px;
 }
 
 #name {
-  padding-right: 40px;
+  padding-right: 68%;
+}
+
+#content {
+  height: 1000px;
 }

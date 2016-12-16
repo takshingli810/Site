@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <title>Brian Tak Shing Li</title>
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="app.js" charset="utf-8"></script>
   <!-- LiveReload -->
   	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 
 <section>
-  <header id="header">
-    <div>
+  <header>
+    <div id="header">
       <ul>
         <li id="name" class="navbar"><a href="www.BrianLi.com">Brian Tak Shing Li</a></li>
-        <li class="navbar"><a href="">Projects</a></li>
-        <li class="navbar"><a href="">About</a></li>
-        <li class="navbar"><a href="">Contact</a></li>
+        <li class="navbar" id="contact"><a href="">Contact</a></li>
+        <li class="navbar" id="about"><a href="">About</a></li>
+        <li class="navbar" id="projects"><a href="">Projects</a></li>
       </ul>
     </div>
   </header>
@@ -34,11 +34,13 @@
 <section>
   <div id="footer">
     <footer>
-      <h1 id="footerIntro">Need something from me?</h1>
+      <h1>Need something from me?</h1>
+      <h2></h2>
     </footer>
   </div>
 </section>
 
+  <script src="app.js" charset="utf-8"></script>
 </body>
 </html>
 

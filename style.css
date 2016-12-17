@@ -55,15 +55,16 @@ a:hover {
 
 #footer {
   height: 400px;
-  background-color: pink;
+  background-color: #333333;
 }
 
 #footer h1 {
   font-size: 25px;
   font-weight: bold;
+  color: white;
 }
 
 #footer h1::first-letter {
-  font-size: 30px;
-  color: red;
+  font-size: 32px;
+  color: white;
 }

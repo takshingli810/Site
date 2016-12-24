@@ -1,36 +1,53 @@
-#header {
-  background-color: #333333;
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:700");
+#topContainer {
+  background-color: transparent;
   position: fixed;
   top: 0;
   width: 100%;
-  height: 48px; }
-  #header li {
+  height: 200px; }
+  #topContainer #navButton {
     float: right;
-    margin-top: 14px;
-    font-size: 19.5px; }
-    #header li:first-child {
-      float: left; }
-  #header #contact {
-    padding-right: 20px; }
-  #header #name {
-    padding-left: 20px; }
-  #header .navbar a {
-    display: inline;
-    padding: 12px;
-    text-decoration: none;
-    background-color: none;
-    color: white; }
-    #header .navbar a:hover {
-      background-color: green;
-      font-size: 20px; }
+    width: 40px;
+    height: 30px;
+    padding: 60px 60px 0px 0px; }
+    #topContainer #navButton .navLines {
+      margin: 6px;
+      background-color: #fcfdff;
+      width: 30px;
+      height: 2px;
+      display: block;
+      transition: transform 600ms ease-in-out; }
+
+.click1 {
+  transform: rotateZ(-45deg) translate(0px, 2px); }
+
+.click2 {
+  transform: rotateZ(45deg) translate(-3px, -5.5px); }
+
+.click3 {
+  transform: rotateZ(-45deg) translate(10.1px, -9.45px); }
+
+#displayName {
+  position: relative;
+  width: 15%;
+  height: 200px;
+  padding: 50px 0px 0px 20px; }
+  #displayName #name {
+    font-family: "Dancing Script", cursive;
+    font-size: 65px;
+    color: #fcfdff;
+    transform: rotateZ(-28deg); }
+
+body {
+  background-color: #49505b; }
 
 #content {
   height: 1000px;
-  background-color: pink; }
+  background: linear-gradient(140deg, #6f7777, #393c3d); }
 
 #footer {
-  height: 260px;
-  background-color: #333333;
+  height: 230px;
+  background: linear-gradient(140deg, #647abc, #707789);
   opacity: 1; }
   #footer #footerIntro {
     font-size: 40px;
@@ -39,7 +56,7 @@
     padding-right: 60px;
     position: relative;
     left: 0%;
-    top: 40px;
+    top: 30px;
     float: right;
     clear: left; }
     #footer #footerIntro:first-letter {
@@ -47,7 +64,7 @@
       color: white; }
 
 #findMeDiv {
-  height: 150px;
+  height: 100px;
   width: 300px;
   padding: 20px 10px 10px 10px;
   position: relative;

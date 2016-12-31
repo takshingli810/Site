@@ -13,19 +13,20 @@
     #topContainer #navButton .navLines {
       margin: 6px;
       background-color: #fcfdff;
-      width: 30px;
+      width: 32px;
       height: 2px;
       display: block;
       transition: transform 600ms ease-in-out; }
 
 .click1 {
-  transform: rotateZ(-45deg) translate(0px, 2px); }
+  transform: rotateZ(-45.5deg) translate(-0.8px, 2px); }
 
 .click2 {
-  transform: rotateZ(45deg) translate(-3px, -5.5px); }
+  height: 3px;
+  transform: rotateZ(42deg) translate(-2.8px, -5.5px); }
 
 .click3 {
-  transform: rotateZ(-45deg) translate(10.1px, -9.45px); }
+  transform: rotateZ(-45.5deg) translate(11px, -9.23px); }
 
 #displayName {
   position: relative;

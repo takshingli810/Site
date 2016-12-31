@@ -12,9 +12,9 @@ $(function(){
     console.log(wScroll);
 
     if (wScroll > 1) {
-      $("#name").css({"opacity" : "0.8"})
+      $("#name").css({"opacity" : "0.8"});
     } else {
-      $("#name").css({"opacity" : "1"})
+      $("#name").css({"opacity" : "1"});
     }
 
   });
@@ -22,9 +22,9 @@ $(function(){
   function clickNavButton() {
     $("#navButton").click(function(){
       for (var i = 0; i < 4; i++){
-        $("#nav" + i).toggleClass("click" + i)
+        $("#nav" + i).toggleClass("click" + i);
       }
-    })
+    });
   }
 
 });

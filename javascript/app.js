@@ -4,17 +4,31 @@ $(function(){
 
   // calling functiions
   clickNavButton();
-  // global variable
 
 
   $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
     console.log(wScroll);
 
-    if (wScroll > 1) {
-      $("#name").css({"opacity" : "0.8"});
-    } else {
-      $("#name").css({"opacity" : "1"});
+    //functions
+    parallax();
+    scrolling();
+
+
+    function scrolling(){
+      if (wScroll > 1) {
+        $("#name").css({"opacity" : "0.7"});
+        $("#comeOnDown").fadeOut();
+      } else {
+        $("#name").css({"opacity" : "1"});
+        $("#comeOnDown").fadeIn();
+      }
+    }
+    function parallax(){
+      $("#hugeText").css({
+        'transform' : 'translate(0px, '+ wScroll / 30 +'%)'
+      });
+
     }
 
   });

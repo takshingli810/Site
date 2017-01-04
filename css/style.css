@@ -43,8 +43,44 @@ body {
   background-color: #49505b; }
 
 #content {
-  height: 1000px;
-  background: linear-gradient(140deg, #6f7777, #393c3d); }
+  height: 4000px;
+  background: linear-gradient(120deg, #49505b, #393c3d); }
+
+#intro {
+  height: 450px;
+  width: 80%;
+  position: relative;
+  left: 12%;
+  top: 5%; }
+  #intro #whatIDo {
+    font-size: 20px;
+    position: relative;
+    top: 18%;
+    left: 27%;
+    color: #fcfdff;
+    text-decoration: underline; }
+  #intro #hugeTextDiv {
+    width: 60%;
+    position: relative;
+    left: 12%; }
+    #intro #hugeTextDiv pre {
+      font-size: 60px;
+      text-align: center;
+      position: relative;
+      color: #ffb042;
+      font-weight: bolder;
+      padding: 40px 0px 0px 0px; }
+  #intro #comeOnDown {
+    font-size: 15px;
+    position: relative;
+    left: 55%;
+    top: 50px;
+    color: #fcfdff;
+    text-decoration: underline;
+    transition: transform 400ms ease-in-out forward; }
+
+.fadeOut {
+  opacity: 0; }
 
 #footer {
   height: 230px;

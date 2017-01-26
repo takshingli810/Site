@@ -84,9 +84,11 @@ body {
 
 #imageContainer {
   position: relative;
-  top: 15%;
-  width: 100%;
-  height: 400px; }
+  top: 12%;
+  width: 200px;
+  height: 400px;
+  float: right;
+  padding-right: 14%; }
   #imageContainer #GAPic {
     display: none;
     position: relative;
@@ -94,7 +96,19 @@ body {
     clear: left;
     height: 400px;
     width: 400px;
-    padding-right: 10%; }
+    padding: 4px;
+    border-radius: 15px; }
+
+#aboutMe {
+  position: relative;
+  top: 12%;
+  height: 400px;
+  width: 500px;
+  padding-left: 15%; }
+  #aboutMe p {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fcfdff; }
 
 #footer {
   height: 230px;

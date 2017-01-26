@@ -31,7 +31,7 @@ $(function(){
 
     function parallax(){
       $("#hugeText").css({
-        'transform' : 'translate(0px, '+ wScroll / 25 +'%)'
+        'transform' : 'translate(0px, '+ wScroll / 15.5 +'%)'
       });
     }
   });

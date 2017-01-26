@@ -88,7 +88,7 @@ body {
   width: 200px;
   height: 400px;
   float: right;
-  padding-right: 14%; }
+  padding-right: 18%; }
   #imageContainer #GAPic {
     display: none;
     position: relative;
@@ -100,15 +100,20 @@ body {
     border-radius: 15px; }
 
 #aboutMe {
+  display: none;
   position: relative;
   top: 12%;
   height: 400px;
-  width: 500px;
-  padding-left: 15%; }
-  #aboutMe p {
-    font-size: 25px;
-    font-weight: bold;
-    color: #fcfdff; }
+  width: 400px;
+  padding-left: 25%;
+  font-weight: bold;
+  color: #fcfdff; }
+  #aboutMe #firstLine {
+    font-size: 40px;
+    padding-left: 10%; }
+    #aboutMe #firstLine:first-letter {
+      font-size: 60px;
+      color: #ffb042; }
 
 #footer {
   height: 230px;
